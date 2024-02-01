@@ -8,7 +8,7 @@ frontend:
       commands:
         - echo "Build step is not needed"
   artifacts:
-    baseDirectory: public
+    baseDirectory: public/app
     files:
       - '**/*'
   cache:
